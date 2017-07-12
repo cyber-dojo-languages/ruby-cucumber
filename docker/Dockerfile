@@ -1,5 +1,5 @@
-FROM       cyberdojofoundation/ruby:2.3.1
-MAINTAINER Jon Jagger <jon@jaggersoft.com>
+FROM  cyberdojofoundation/ruby:2.3.1
+LABEL maintainer=jon@jaggersoft.com
 
 RUN gem install --no-rdoc --no-ri rspec
 RUN gem install --no-rdoc --no-ri shoulda
