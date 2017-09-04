@@ -1,5 +1,7 @@
 
 {
+  "display_name": "Ruby, Cucumber",
+
   "visible_filenames": [
     "hiker.feature",
     "hiker_stepdefs.rb",
@@ -7,11 +9,10 @@
     "cyber-dojo.sh"
   ],
 
+  "image_name": "cyberdojofoundation/ruby_cucumber",
+
   "filename_extension" : ".rb",
 
-  "tab_size": 2,
+  "tab_size": 2
 
-  "display_name": "Ruby, Cucumber",
-
-  "image_name": "cyberdojofoundation/ruby_cucumber"
 }
