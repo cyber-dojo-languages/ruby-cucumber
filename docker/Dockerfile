@@ -1,4 +1,4 @@
-FROM  cyberdojofoundation/ruby:2.3.1
+FROM  cyberdojofoundation/ruby:2.4.1
 LABEL maintainer=jon@jaggersoft.com
 
 RUN gem install --no-rdoc --no-ri rspec
