@@ -1,8 +1,9 @@
-FROM  cyberdojofoundation/ruby:2.4.2
+FROM  cyberdojofoundation/ruby:2.4.3
 LABEL maintainer=jon@jaggersoft.com
 
-RUN gem install --no-rdoc --no-ri rspec
-RUN gem install --no-rdoc --no-ri shoulda
-RUN gem install --no-rdoc --no-ri cucumber
+RUN gem install --no-rdoc --no-ri \
+  rspec \
+  shoulda \
+  cucumber
 
 COPY red_amber_green.rb /usr/local/bin
