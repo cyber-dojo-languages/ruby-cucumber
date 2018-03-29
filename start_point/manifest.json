@@ -11,7 +11,7 @@
 
   "image_name": "cyberdojofoundation/ruby_cucumber",
 
-  "filename_extension" : ".rb",
+  "filename_extension": [ ".rb", ".feature" ],
 
   "tab_size": 2,
 
