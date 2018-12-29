@@ -1,7 +1,8 @@
 FROM  cyberdojofoundation/ruby
 LABEL maintainer=jon@jaggersoft.com
 
-RUN gem install --no-rdoc --no-ri \
+RUN echo "gem: --no-rdoc --no-ri" > ~/.gemrc
+RUN gem install \
   rspec \
   shoulda \
   cucumber
