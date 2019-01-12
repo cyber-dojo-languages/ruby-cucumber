@@ -1,3 +1,4 @@
+require_relative 'hiker'
 
 Given /^the hitch-hiker selects some tiles$/ do
 end

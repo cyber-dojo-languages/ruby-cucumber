@@ -4,7 +4,7 @@
 
   "visible_filenames": [
     "hiker.feature",
-    "hiker_stepdefs.rb",
+    "hiker_steps.rb",
     "hiker.rb",
     "cyber-dojo.sh"
   ],
