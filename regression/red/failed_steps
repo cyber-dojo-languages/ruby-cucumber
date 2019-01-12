@@ -1,0 +1,62 @@
+...
+
+Finished in 0.0024 seconds (files took 0.11676 seconds to load)
+3 examples, 0 failures
+
+"Before location steps"
+"Before shout steps"
+"Before hooks"
+...."After hooks"
+"After shout steps"
+"After location steps"
+"Before location steps"
+"Before shout steps"
+"Before hooks"
+...."After hooks"
+"After shout steps"
+"After location steps"
+"Before location steps"
+"Before shout steps"
+"Before hooks"
+......"After hooks"
+"After shout steps"
+"After location steps"
+"Before location steps"
+"Before shout steps"
+"Before hooks"
+"FOOBAR"
+..."After hooks"
+"After shout steps"
+"After location steps"
+"Before location steps"
+"Before shout steps"
+"Before hooks"
+"FOOBAR"
+....."After hooks"
+"After shout steps"
+"After location steps"
+"Before location steps"
+"Before shout steps"
+"Before hooks"
+.....F"After hooks"
+"After shout steps"
+"After location steps"
+
+
+(::) failed steps (::)
+
+
+expected: 1
+     got: 2
+
+(compared using ==)
+ (RSpec::Expectations::ExpectationNotMetError)
+./shout_steps.rb:30:in `"Lucy should hear {int} shouts from Sean"'
+./hear_shout.feature:49:in `Then Lucy should hear 1 shouts from Sean'
+
+Failing Scenarios:
+cucumber ./hear_shout.feature:41 # Scenario: Multiple shouts from one person while moving in-range between shouts
+
+6 scenarios (1 failed, 5 passed)
+28 steps (1 failed, 27 passed)
+0m0.065s

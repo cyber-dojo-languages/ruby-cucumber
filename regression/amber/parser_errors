@@ -1,0 +1,28 @@
+...
+
+Finished in 0.00258 seconds (files took 0.11341 seconds to load)
+3 examples, 0 failures
+
+shout_steps.rb: Parser errors:
+(1:1): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'require_relative 'shouty''
+(3:1): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'USERS_MESSAGE = "Hello, I'm "'
+(5:1): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Before do'
+(7:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'end'
+(9:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Given('{word}') do |name|'
+(11:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'end'
+(13:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Given('{word} is at {int}, {int}') do |name, x, y|'
+(15:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'end'
+(17:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Given("people are located at") do |table|'
+(19:3): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'table.hashes.each do |row|'
+(21:3): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'end' (Cucumber::Core::Gherkin::ParseError)
+/usr/local/bundle/gems/cucumber-core-3.2.0/lib/cucumber/core/gherkin/parser.rb:34:in `rescue in document'
+/usr/local/bundle/gems/cucumber-core-3.2.0/lib/cucumber/core/gherkin/parser.rb:28:in `document'
+/usr/local/bundle/gems/cucumber-core-3.2.0/lib/cucumber/core.rb:30:in `block in parse'
+/usr/local/bundle/gems/cucumber-core-3.2.0/lib/cucumber/core.rb:29:in `each'
+/usr/local/bundle/gems/cucumber-core-3.2.0/lib/cucumber/core.rb:29:in `parse'
+/usr/local/bundle/gems/cucumber-core-3.2.0/lib/cucumber/core.rb:21:in `compile'
+/usr/local/bundle/gems/cucumber-3.1.2/lib/cucumber/runtime.rb:75:in `run!'
+/usr/local/bundle/gems/cucumber-3.1.2/lib/cucumber/cli/main.rb:34:in `execute!'
+/usr/local/bundle/gems/cucumber-3.1.2/bin/cucumber:9:in `<top (required)>'
+/usr/local/bundle/bin/cucumber:23:in `load'
+/usr/local/bundle/bin/cucumber:23:in `<main>'

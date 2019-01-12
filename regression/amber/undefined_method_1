@@ -1,0 +1,20 @@
+...
+
+Finished in 0.00265 seconds (files took 0.11974 seconds to load)
+3 examples, 0 failures
+
+undefined method `ParamaterType' for main:Object
+Did you mean?  ParameterType (NoMethodError)
+/sandboxes/seal/location_steps.rb:3:in `<top (required)>'
+/usr/local/bundle/gems/cucumber-3.1.2/lib/cucumber/glue/registry_and_more.rb:107:in `load'
+/usr/local/bundle/gems/cucumber-3.1.2/lib/cucumber/glue/registry_and_more.rb:107:in `load_code_file'
+/usr/local/bundle/gems/cucumber-3.1.2/lib/cucumber/runtime/support_code.rb:144:in `load_file'
+/usr/local/bundle/gems/cucumber-3.1.2/lib/cucumber/runtime/support_code.rb:85:in `block in load_files!'
+/usr/local/bundle/gems/cucumber-3.1.2/lib/cucumber/runtime/support_code.rb:84:in `each'
+/usr/local/bundle/gems/cucumber-3.1.2/lib/cucumber/runtime/support_code.rb:84:in `load_files!'
+/usr/local/bundle/gems/cucumber-3.1.2/lib/cucumber/runtime.rb:272:in `load_step_definitions'
+/usr/local/bundle/gems/cucumber-3.1.2/lib/cucumber/runtime.rb:68:in `run!'
+/usr/local/bundle/gems/cucumber-3.1.2/lib/cucumber/cli/main.rb:34:in `execute!'
+/usr/local/bundle/gems/cucumber-3.1.2/bin/cucumber:9:in `<top (required)>'
+/usr/local/bundle/bin/cucumber:23:in `load'
+/usr/local/bundle/bin/cucumber:23:in `<main>'

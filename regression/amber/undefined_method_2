@@ -1,0 +1,25 @@
+...
+
+Finished in 0.00246 seconds (files took 0.12585 seconds to load)
+3 examples, 0 failures
+
+........{"name"=>"Lucy", "x"=>"0", "y"=>"0"}
+{"name"=>"Sean", "x"=>"0", "y"=>"500"}
+{"name"=>"Oscar", "x"=>"1100", "y"=>"0"}
+...F-...
+
+(::) failed steps (::)
+
+undefined method `distance_from' for nil:NilClass (NoMethodError)
+./shouty.rb:24:in `block in shouts_heard_by'
+./shouty.rb:23:in `each'
+./shouty.rb:23:in `shouts_heard_by'
+./shout_steps.rb:30:in `"{word} should not hear {word}"'
+./hear_shout.feature:24:in `Then Lucy should not hear Oscar'
+
+Failing Scenarios:
+cucumber ./hear_shout.feature:16 # Scenario: Multiple shouters
+
+4 scenarios (1 failed, 3 passed)
+16 steps (1 failed, 1 skipped, 14 passed)
+0m0.028s
