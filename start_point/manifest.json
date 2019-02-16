@@ -13,7 +13,5 @@
 
   "filename_extension": [ ".rb", ".feature" ],
 
-  "tab_size": 2,
-
-  "runner_choice": "stateless"
+  "tab_size": 2
 }
