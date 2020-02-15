@@ -13,6 +13,7 @@ RUN apk add --update coreutils bash tar file
 
 LABEL maintainer=jon@jaggersoft.com
 
-RUN echo "gem: --no-rdoc --no-ri" > ~/.gemrc
-RUN gem install rspec shoulda cucumber
+COPY install.sh .
+RUN ./install.sh && rm ./install.sh
+
 COPY red_amber_green.rb /usr/local/bin
