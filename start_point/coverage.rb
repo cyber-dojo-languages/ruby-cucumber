@@ -10,7 +10,7 @@ module SimpleCov
           SimpleCov::Formatter::Console.new.format(result)
         }
         report_dir = "#{ENV['CYBER_DOJO_SANDBOX']}/report"
-        `mkdir #{report_dir}`
+        `mkdir #{report_dir} 2> /dev/null`
         IO.write("#{report_dir}/coverage.txt", stdout)
       end
       def capture_stdout
