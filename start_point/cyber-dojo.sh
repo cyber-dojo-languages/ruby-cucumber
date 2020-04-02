@@ -1,3 +1,6 @@
+# turn off colour in report/coverage.txt
+export NO_COLOR=1 
+
 # -r option has to be specified for each named file
 REQUIRES=""
 for file in *_steps.rb; do

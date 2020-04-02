@@ -6,12 +6,18 @@
     "hiker.feature",
     "hiker_steps.rb",
     "hiker.rb",
+    "coverage.rb",
     "cyber-dojo.sh"
   ],
 
   "image_name": "cyberdojofoundation/ruby_cucumber",
 
   "filename_extension": [ ".rb", ".feature" ],
+
+  "hidden_filenames": [
+    "coverage/\\.last_run\\.json",
+    "coverage/\\.resultset\\.json"
+  ],
 
   "tab_size": 2
 }
