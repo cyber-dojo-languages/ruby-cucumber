@@ -1,4 +1,3 @@
-
 {
   "display_name": "Ruby, Cucumber",
   "image_name": "cyberdojofoundation/ruby_cucumber",
@@ -12,7 +11,7 @@
   ],
   "filename_extension": [ ".rb", ".feature" ],
   "max_seconds": 10,
-  "tab_size": 2
+  "tab_size": 2,
   "hidden_filenames":
   [
     "coverage/\\.last_run\\.json",
