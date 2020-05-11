@@ -1,23 +1,21 @@
 
 {
   "display_name": "Ruby, Cucumber",
-
-  "visible_filenames": [
+  "image_name": "cyberdojofoundation/ruby_cucumber",
+  "visible_filenames":
+  [
     "hiker.feature",
     "hiker_steps.rb",
     "hiker.rb",
     "coverage.rb",
     "cyber-dojo.sh"
   ],
-
-  "image_name": "cyberdojofoundation/ruby_cucumber",
-
   "filename_extension": [ ".rb", ".feature" ],
-
-  "hidden_filenames": [
+  "max_seconds": 10,
+  "tab_size": 2
+  "hidden_filenames":
+  [
     "coverage/\\.last_run\\.json",
     "coverage/\\.resultset\\.json"
-  ],
-
-  "tab_size": 2
+  ]
 }
