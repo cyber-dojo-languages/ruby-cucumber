@@ -1,4 +1,4 @@
-FROM cyberdojofoundation/ruby:520f570
+FROM cyberdojofoundation/ruby:8b00263
 LABEL maintainer=jon@jaggersoft.com
 
 COPY install.sh .
