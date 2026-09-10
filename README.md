@@ -1,6 +1,6 @@
 [![Github Action (main)](https://github.com/cyber-dojo-languages/ruby-cucumber/actions/workflows/main.yml/badge.svg)](https://github.com/cyber-dojo-languages/ruby-cucumber/actions)
 
-## display_name="Ruby 4.0, Cucumber 10.2"
+## display_name="Ruby 4.0, Cucumber 11.1"
 ## image_name=[ghcr.io/cyber-dojo-languages/ruby_cucumber](https://ghcr.io/cyber-dojo-languages/ruby_cucumber)
 
 ![cyber-dojo.org home page](https://github.com/cyber-dojo/cyber-dojo/blob/master/shared/home_page_snapshot.png)
